@@ -153,21 +153,19 @@
     function go(next, user, dir, instant) {
       next = ((next % n) + n) % n;
       if (next === i && !user && !instant) return;
-      var backward = dir === "prev" || next === i - 1 || (i === 0 && next === n - 1 && dir !== "next");
       var cur = slides[i];
       var incoming = slides[next];
       clearTimeout(leavingTimer);
       clearAdvance();
       slides.forEach(function (s) {
-        s.classList.remove("is-active", "is-leaving", "is-from-prev", "is-leaving-prev");
+        s.classList.remove("is-active", "is-leaving");
         s.setAttribute("aria-hidden", "true");
       });
       if (!reduce && !instant && cur && cur !== incoming) {
-        cur.classList.add(backward ? "is-leaving-prev" : "is-leaving");
-        if (backward) incoming.classList.add("is-from-prev");
+        cur.classList.add("is-leaving");
         leavingTimer = setTimeout(function () {
-          cur.classList.remove("is-leaving", "is-leaving-prev");
-        }, 700);
+          cur.classList.remove("is-leaving");
+        }, 500);
       }
       if (instant) {
         slides.forEach(function (s) { s.style.transition = "none"; });
@@ -180,7 +178,6 @@
       }
       if (cur && cur !== incoming) stopSlideVideo(cur);
       i = next;
-      if (status) status.textContent = "Highlight " + (i + 1) + " of " + n;
       dots.forEach(function (d, di) { d.setAttribute("aria-selected", di === i ? "true" : "false"); });
       ensureVideoReady(incoming);
       var upcoming = slides[(i + 1) % n];

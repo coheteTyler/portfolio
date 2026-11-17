@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tyler Lazar, a student at Purdue in aerospace engineering and a member of the PURPL turbine subteam.">
+  <title>Tyler Lazar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top">Tyler Lazar</a>
+    <nav aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="about" aria-labelledby="hero-name">
+      <h1 id="hero-name">Tyler Lazar</h1>
+      <p class="role">Aeronautical and Astronautical Engineering</p>
+      <p class="bio">I am working toward a degree in Aeronautical and Astronautical Engineering at Purdue University and am on the turbine subteam of the Purdue Undergraduate Rocket Propulsion Laboratory (PURPL). Before Purdue, I designed, built, and tested a diesel and gaseous-oxygen (GOX) gas generator from scratch by myself: about 2,000 hours, four injector generations, leak, proof, and cold flow testing, and two hot fires with 34 seconds of test data.</p>
+      <p class="bio">I want to help design, build, and test propulsion and turbomachinery hardware.</p>
+
+      <div class="deck-wrap" id="highlights" data-deck>
+        <div class="deck" role="region" aria-roledescription="carousel" aria-label="Work" tabindex="0">
+          <div class="deck-stage">
+            <article class="slide is-active" data-slide="0" data-video-slide aria-hidden="false">
+              <div class="slide-media">
+                <picture class="slide-video-poster">
+                  <source media="(prefers-reduced-motion: reduce)" type="image/webp" srcset="video/hero-hotfire-loop.webp">
+                  <img alt="Hot fire of the gas generator at the pipe combustion chamber" width="1280" height="720" decoding="async" data-reduced-src="video/hero-hotfire-loop.jpg">
+                </picture>
+                <video class="slide-video" muted playsinline preload="auto" poster="video/hero-hotfire-loop.jpg" width="1280" height="720">
+                  <source src="video/hero-hotfire-loop.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="slide-scrim">
+                <p class="slide-caption">Two system-level hot fires at a 1:1 mixture ratio gave 34 seconds of test data.</p>
+              </div>
+            </article>
+            <article class="slide" data-slide="1" aria-hidden="true">
+              <div class="slide-media">
+                <picture>
+                  <source type="image/webp" data-srcset="img/test-pad.webp">
+                  <img data-src="img/test-pad.jpg" alt="Outdoor test pad with covered gas generator hardware" width="1920" height="1440" decoding="async" loading="lazy" class="pos-lower">
+                </picture>
+              </div>
+              <div class="slide-scrim">
+                <p class="slide-caption">Built the test site first: about 40 tons of dirt and rock moved by hand over about 250 hours, and a stand with a blast plate behind it.</p>
+              </div>
+            </article>
+            <article class="slide" data-slide="2" aria-hidden="true">
+              <div class="slide-media">
+                <picture>
+                  <source type="image/webp" data-srcset="img/tig-weld.webp">
+                  <img data-src="img/tig-weld.jpg" alt="TIG welding on gas generator hardware" width="1200" height="900" decoding="async" loading="lazy">
+                </picture>
+              </div>
+              <div class="slide-scrim">
+                <p class="slide-caption">I taught myself TIG welding, about 80 hours, and welded all the main parts myself.</p>
+              </div>
+            </article>
+            <article class="slide" data-slide="3" aria-hidden="true">
+              <div class="slide-media">
+                <picture>
+                  <source type="image/webp" data-srcset="img/drill-guide.webp">
+                  <img data-src="img/drill-guide.jpg" alt="3D-printed drill guide on an injector plate" width="1200" height="900" decoding="async" loading="lazy">
+                </picture>
+              </div>
+              <div class="slide-scrim">
+                <p class="slide-caption">I made them from laser-cut blanks, drilled the orifice pattern on a used drill press through a 3D-printed angular drill guide, and fixture-machined them.</p>
+              </div>
+            </article>
+            <article class="slide" data-slide="4" data-video-slide aria-hidden="true">
+              <div class="slide-media">
+                <picture class="slide-video-poster">
+                  <source media="(prefers-reduced-motion: reduce)" type="image/webp" data-srcset="video/coldflow-loop.webp">
+                  <img alt="Cold flow of an injector plate" width="1280" height="720" decoding="async" loading="lazy" data-reduced-src="video/coldflow-loop.jpg">
+                </picture>
+                <video class="slide-video" muted playsinline preload="none" data-poster="video/coldflow-loop.jpg" width="1280" height="720">
+                  <source src="video/coldflow-loop.webm" type="video/webm">
+                  <source src="video/coldflow-loop.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="slide-scrim">
+                <p class="slide-caption">Component-level testing before any hot fire: I leak tested and proof tested the hardware, then cold flowed the injectors to check the spray.</p>
+              </div>
+            </article>
+            <article class="slide" data-slide="5" aria-hidden="true">
+              <div class="slide-media">
+                <picture>
+                  <source type="image/webp" data-srcset="img/cascade-mesh.webp">
+                  <img data-src="img/cascade-mesh.jpg" alt="Example cascade mesh of the impulse turbine blisk" width="1129" height="919" decoding="async" loading="lazy">
+                </picture>
+              </div>
+              <div class="slide-scrim">
+                <p class="slide-caption">Built 2-D cascade meshes of the impulse turbine blisk, and I run OpenFOAM CFD on them to estimate blade loss and isentropic efficiency.</p>
+              </div>
+            </article>
+            <article class="slide" data-slide="6" aria-hidden="true">
+              <div class="slide-media">
+                <picture>
+                  <source type="image/webp" data-srcset="img/cascade-mesh.webp">
+                  <img data-src="img/cascade-mesh.jpg" alt="Example cascade mesh of the impulse turbine blisk" width="1129" height="919" decoding="async" loading="lazy">
+                </picture>
+              </div>
+              <div class="slide-scrim">
+                <p class="slide-caption">Marlin V2 is a gas-generator-cycle turbopump for a 1,500 lbf engine.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="deck-controls">
+            <button type="button" class="deck-btn" data-deck-prev aria-label="Previous slide">Previous</button>
+            <button type="button" class="deck-btn" data-deck-pause aria-pressed="false">Pause</button>
+            <button type="button" class="deck-btn" data-deck-next aria-label="Next slide">Next</button>
+          </div>
+          <div class="deck-dots" role="tablist" aria-label="Choose a slide"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline" aria-labelledby="timeline-heading">
+      <h2 id="timeline-heading">Timeline</h2>
+
+      <div class="timeline">
+
+        <article class="tl-item" id="purpl-marlin-v2">
+          <button class="tl-tile" type="button" aria-expanded="false" aria-controls="panel-purpl">
+            <span class="tl-photo" aria-hidden="true">
+              <picture>
+                  <source type="image/webp" srcset="img/thumbs/cascade-mesh.webp">
+                  <img src="img/thumbs/cascade-mesh.jpg" alt="" width="640" height="521" decoding="async" loading="lazy">
+                </picture>
+            </span>
+            <span class="tl-info">
+              <span class="tl-date">August 2026 – Present</span>
+              <span class="tl-title">PURPL, Marlin V2 Turbopump</span>
+              <span class="tl-role">Turbine Subteam · West Lafayette, IN</span>
+            </span>
+            <span class="tl-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="tl-panel" id="panel-purpl" hidden>
+            <p>Marlin V2 is a gas-generator-cycle turbopump for a 1,500 lbf engine. A full assembly hot fire is planned for this school year; it has not been hot fired yet.</p>
+            <ul>
+              <li>Help size the turbine to the pump, gas generator, and shaft based on turbine power extraction.</li>
+              <li>Built 2-D cascade meshes of the impulse turbine blisk, and I run OpenFOAM CFD on them to estimate blade loss and isentropic efficiency. I am responsible for finding the axial thrust on the turbine and making sure the rotordynamics can handle it.</li>
+              <li>Working with the turbine lead on a Python tool that turns rotor blade geometry into a CFD-ready mesh, so the results feed back into the design instead of being a one-off picture.</li>
+            </ul>
+            <section class="media-block">
+              <div class="gallery" data-gallery aria-label="Photos">
+                <button type="button" class="gallery-item" data-full="img/cascade-mesh.jpg" data-full-webp="img/cascade-mesh.webp" data-caption="Example cascade mesh" data-alt="Example cascade mesh of the impulse turbine blisk">
+                  <picture>
+                  <source type="image/webp" srcset="img/thumbs/cascade-mesh.webp">
+                  <img src="img/thumbs/cascade-mesh.jpg" alt="Example cascade mesh of the impulse turbine blisk" width="640" height="521" decoding="async" loading="lazy">
+                </picture>
+                  <span class="gallery-caption">Example cascade mesh</span>
+                </button>
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <article class="tl-item" id="moonshot">
+          <button class="tl-tile" type="button" aria-expanded="false" aria-controls="panel-moonshot">
+            <span class="tl-info">
+              <span class="tl-date">June 2023 – 2026 · intern, summer 2026</span>
+              <span class="tl-title">Moonshot Museum</span>
+              <span class="tl-role">Volunteer, then 2026 Summer Intern · Pittsburgh, PA</span>
+            </span>
+            <span class="tl-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="tl-panel" id="panel-moonshot" hidden>
+            <ul>
+              <li>Volunteer (2023 – 2026): gave public technical talks and ran hands-on exhibit floors for thousands of visitors.</li>
+              <li>Intern (summer 2026): demonstrated real aerospace test hardware and helped with the museum redesign, looking at cost, accessibility, and how well it helps people learn.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item" id="aerospace-club">
+          <button class="tl-tile" type="button" aria-expanded="false" aria-controls="panel-club">
+            <span class="tl-info">
+              <span class="tl-date">2024 – 2026</span>
+              <span class="tl-title">Aerospace Club (NASD Aerospace)</span>
+              <span class="tl-role">Founder and President · North Allegheny High School</span>
+            </span>
+            <span class="tl-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="tl-panel" id="panel-club" hidden>
+            <ul>
+              <li>Started the school's first aerospace club from zero. I found a sponsor and set up the charter, meetings, and build work.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item" id="project-ignite">
+          <button class="tl-tile" type="button" aria-expanded="false" aria-controls="panel-ignite">
+            <span class="tl-info">
+              <span class="tl-date">2024</span>
+              <span class="tl-title">Project Ignite, Carnegie Mellon University</span>
+              <span class="tl-role">Student Team · Pittsburgh, PA</span>
+            </span>
+            <span class="tl-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="tl-panel" id="panel-ignite" hidden>
+            <ul>
+              <li>Our team took a minimum viable product from requirements through budget, CAD, 3D printing, fabrication, and testing.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item" id="gas-generator">
+          <button class="tl-tile" type="button" aria-expanded="false" aria-controls="panel-gg">
+            <span class="tl-photo" aria-hidden="true">
+              <picture>
+                  <source type="image/webp" srcset="img/thumbs/hotfire-09.webp">
+                  <img src="img/thumbs/hotfire-09.jpg" alt="" width="640" height="360" decoding="async" loading="lazy">
+                </picture>
+            </span>
+            <span class="tl-info">
+              <span class="tl-date">2022 – October 2025 · about 2,000 solo hours</span>
+              <span class="tl-title">Diesel and GOX Gas Generator</span>
+              <span class="tl-role">Solo Designer, Builder, and Test Conductor · Wexford, PA</span>
+            </span>
+            <span class="tl-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="tl-panel" id="panel-gg" hidden>
+            <p>Started in tenth grade as the first piece of a liquid engine. Diesel and GOX was a trade: it forced me to solve atomization, kept cost down, and avoided cryogenics on a residential lot.</p>
+            <ul>
+              <li>Built the test site first: about 40 tons of dirt and rock moved by hand over about 250 hours, and a stand with a blast plate behind it.</li>
+              <li>Designed four unlike-triplet injector plates (two oxidizer orifices, one fuel orifice) in CAD. I made them from laser-cut blanks, drilled the orifice pattern on a used drill press through a 3D-printed angular drill guide, and fixture-machined them. I taught myself TIG welding, about 80 hours, and welded all the main parts myself.</li>
+              <li>Used design for manufacturing (DFM) to keep cost low. The methods in the reports I studied were not available to me, so I replaced them with ones my shop could actually do. I made engineering drawings for myself to fabricate a flame suppression system.</li>
+              <li>Component-level testing before any hot fire: I leak tested and proof tested the hardware, then cold flowed the injectors to check the spray. I developed the injector by drilling, cold flowing, and drilling again until the fourth plate atomized well enough that I trusted it.</li>
+              <li>Built the test equipment for remote operation: an Arduino fire-control sequence (arm, fire, purge, and abort), a key-fob remote, and two actuated ball valves kept me off the pad. I used a pipe combustion chamber to maximize safety and combustion predictability.</li>
+              <li>Planned each test around safety first and ran it myself. I wrote test procedures and checklists and used them to brief the firefighter on site. Two system-level hot fires at a 1:1 mixture ratio gave 34 seconds of test data.</li>
+            </ul>
+            <section class="media-block">
+              <div class="gallery" data-gallery aria-label="Photos">
+                <button type="button" class="gallery-item" data-full="img/hotfire-04.jpg" data-full-webp="img/hotfire-04.webp" data-caption="Hot fire" data-alt="Hot fire of the gas generator at the pipe combustion chamber">
+                  <picture>
+                  <source type="image/webp" srcset="img/thumbs/hotfire-04.webp">
+                  <img src="img/thumbs/hotfire-04.jpg" alt="Hot fire of the gas generator at the pipe combustion chamber" width="640" height="360" decoding="async" loading="lazy">
+                </picture>
+                  <span class="gallery-caption">Hot fire</span>
+                </button>
+                <button type="button" class="gallery-item" data-full="img/hotfire-09.jpg" data-full-webp="img/hotfire-09.webp" data-caption="Hot fire" data-alt="Hot fire of the gas generator at the pipe combustion chamber">
+                  <picture>
+                  <source type="image/webp" srcset="img/thumbs/hotfire-09.webp">
+                  <img src="img/thumbs/hotfire-09.jpg" alt="Hot fire of the gas generator at the pipe combustion chamber" width="640" height="360" decoding="async" loading="lazy">
+                </picture>
+                  <span class="gallery-caption">Hot fire</span>
+                </button>
+                <button type="button" class="gallery-item" data-full="img/hotfire-14.jpg" data-full-webp="img/hotfire-14.webp" data-caption="Hot fire" data-alt="Hot fire of the gas generator at the pipe combustion chamber">
+                  <picture>
+                  <source type="image/webp" srcset="img/thumbs/hotfire-14.webp">
+                  <img src="img/thumbs/hotfire-14.jpg" alt="Hot fire of the gas generator at the pipe combustion chamber" width="640" height="360" decoding="async" loading="lazy">
+                </picture>
+                  <span class="gallery-caption">Hot fire</span>
+                </button>
+                <button type="button" class="gallery-item" data-full="img/hotfire-22.jpg" data-full-webp="img/hotfire-22.webp" data-caption="Hot fire, purge" data-alt="Purge sparks after a hot fire of the gas generator">
+                  <picture>
+                  <source type="image/webp" srcset="img/thumbs/hotfire-22.webp">
+                  <img src="img/thumbs/hotfire-22.jpg" alt="Purge sparks after a hot fire of the gas generator" width="640" height="360" decoding="async" loading="lazy">
+                </picture>
+                  <span class="gallery-caption">Hot fire, purge</span>
+                </button>
+                <button type="button" class="gallery-item" data-full="img/coldflow-08.jpg" data-full-webp="img/coldflow-08.webp" data-caption="Cold flow of the injector" data-alt="Cold flow of an injector plate">
+                  <picture>
+                  <source type="image/webp" srcset="img/thumbs/coldflow-08.webp">
+                  <img src="img/thumbs/coldflow-08.jpg" alt="Cold flow of an injector plate" width="640" height="360" decoding="async" loading="lazy">
+                </picture>
+                  <span class="gallery-caption">Cold flow of the injector</span>
+                </button>
+                <button type="button" class="gallery-item" data-full="img/tig-weld.jpg" data-full-webp="img/tig-weld.webp" data-caption="TIG weld" data-alt="TIG welding on gas generator hardware">
+                  <picture>
+                  <source type="image/webp" srcset="img/thumbs/tig-weld.webp">
+                  <img src="img/thumbs/tig-weld.jpg" alt="TIG welding on gas generator hardware" width="640" height="480" decoding="async" loading="lazy">
+                </picture>
+                  <span class="gallery-caption">TIG weld</span>
+                </button>
+                <button type="button" class="gallery-item" data-full="img/drill-guide.jpg" data-full-webp="img/drill-guide.webp" data-caption="Drill guide" data-alt="3D-printed drill guide on an injector plate">
+                  <picture>
+                  <source type="image/webp" srcset="img/thumbs/drill-guide.webp">
+                  <img src="img/thumbs/drill-guide.jpg" alt="3D-printed drill guide on an injector plate" width="640" height="480" decoding="async" loading="lazy">
+                </picture>
+                  <span class="gallery-caption">Drill guide</span>
+                </button>
+                <button type="button" class="gallery-item" data-full="img/test-pad.jpg" data-full-webp="img/test-pad.webp" data-caption="Test pad" data-alt="Outdoor test pad with covered gas generator hardware">
+                  <picture>
+                  <source type="image/webp" srcset="img/thumbs/test-pad.webp">
+                  <img src="img/thumbs/test-pad.jpg" alt="Outdoor test pad with covered gas generator hardware" width="640" height="480" decoding="async" loading="lazy">
+                </picture>
+                  <span class="gallery-caption">Test pad</span>
+                </button>
+                <button type="button" class="gallery-item" data-full="img/cold-flow.jpg" data-full-webp="img/cold-flow.webp" data-caption="Cold-flow spray" data-alt="Cold-flow spray from an injector plate">
+                  <picture>
+                  <source type="image/webp" srcset="img/thumbs/cold-flow.webp">
+                  <img src="img/thumbs/cold-flow.jpg" alt="Cold-flow spray from an injector plate" width="640" height="555" decoding="async" loading="lazy">
+                </picture>
+                  <span class="gallery-caption">Cold-flow spray</span>
+                </button>
+                <button type="button" class="gallery-item" data-full="img/hot-fire-stand.jpg" data-full-webp="img/hot-fire-stand.webp" data-caption="Hot fire on the stand" data-alt="Hot fire of the gas generator on the test stand">
+                  <picture>
+                  <source type="image/webp" srcset="img/thumbs/hot-fire-stand.webp">
+                  <img src="img/thumbs/hot-fire-stand.jpg" alt="Hot fire of the gas generator on the test stand" width="640" height="555" decoding="async" loading="lazy">
+                </picture>
+                  <span class="gallery-caption">Hot fire on the stand</span>
+                </button>
+                <button type="button" class="gallery-item" data-full="img/hot-fire-chamber.jpg" data-full-webp="img/hot-fire-chamber.webp" data-caption="Hot fire at the pipe chamber" data-alt="Hot fire at the pipe combustion chamber">
+                  <picture>
+                  <source type="image/webp" srcset="img/thumbs/hot-fire-chamber.webp">
+                  <img src="img/thumbs/hot-fire-chamber.jpg" alt="Hot fire at the pipe combustion chamber" width="640" height="555" decoding="async" loading="lazy">
+                </picture>
+                  <span class="gallery-caption">Hot fire at the pipe chamber</span>
+                </button>
+              </div>
+            </section>
+            <section class="media-block" data-media="video">
+              <div class="video-list">
+              <figure class="project-video">
+                <video controls playsinline preload="none" data-poster="video/hotfire-full.jpg" width="1920" height="1080">
+                  <source src="video/hotfire-full.mp4" type="video/mp4">
+                </video>
+                <figcaption>Hot fire</figcaption>
+              </figure>
+              <figure class="project-video">
+                <video controls playsinline preload="none" data-poster="video/hotfire-ignition-slowmo.jpg" width="1920" height="1080">
+                  <source src="video/hotfire-ignition-slowmo.mp4" type="video/mp4">
+                </video>
+                <figcaption>Hot fire ignition, slowed 8x</figcaption>
+              </figure>
+              <figure class="project-video">
+                <video controls playsinline preload="none" data-poster="video/hotfire-vertical.jpg" width="720" height="332">
+                  <source src="video/hotfire-vertical.mp4" type="video/mp4">
+                </video>
+                <figcaption>Hot fire</figcaption>
+              </figure>
+              <figure class="project-video">
+                <video controls playsinline preload="none" data-poster="video/coldflow-full.jpg" width="1920" height="1080">
+                  <source src="video/coldflow-full.mp4" type="video/mp4">
+                </video>
+                <figcaption>Cold flow of the injector</figcaption>
+              </figure>
+              </div>
+            </section>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <ul class="skill-list">
+        <li><span class="skill-label">Shop</span> Self-taught TIG welding, fixtures and jigs, 3D printing for tooling, drill press, and bandsaw. Learning CNC milling; I know the basics on the Haas VF-2 at Purdue.</li>
+        <li><span class="skill-label">CAD</span> Mostly Onshape, plus Autodesk Fusion 360. Some engineering drawings, but not many yet.</li>
+        <li><span class="skill-label">Testing</span> Leak, proof, and cold flow testing, and hot-fire test conducting on my own gas generator.</li>
+        <li><span class="skill-label">Programming</span> Mostly Python, a bit of MATLAB and C/C++. Analysis: OpenFOAM CFD in 2D and 3D.</li>
+      </ul>
+    </section>
+
+    <section id="education" aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <ul class="edu-list">
+        <li>
+          <h3>Purdue University</h3>
+          <p class="card-meta">West Lafayette, IN · August 2026 – Present</p>
+          <p>Intended major: Aeronautical and Astronautical Engineering. Class of 2030.</p>
+        </li>
+        <li>
+          <h3>North Allegheny High School</h3>
+          <p class="card-meta">Wexford, PA · Graduated June 2026</p>
+          <p>National Honor Society. GOAL gifted program. Academic Distinction, Academic Grit, and Scholar Awards.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p class="contact-email"><a href="mailto:tylerlazar07@gmail.com">tylerlazar07@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Tyler Lazar · West Lafayette, IN</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo">
+    <button type="button" class="lightbox-close" data-lightbox-close>Close</button>
+    <div class="lightbox-stage" data-lightbox-stage></div>
+    <div class="lightbox-controls">
+      <button type="button" class="deck-btn" data-lightbox-prev>Previous</button>
+      <button type="button" class="deck-btn" data-lightbox-next>Next</button>
+    </div>
+  </div>
+
+
+  <!-- Hidden templates: clone into a .tl-panel and set a source to show video or 3D. -->
+  <template id="tmpl-video-block">
+    <section class="media-block" data-media="video">
+      <div class="player" data-player>
+        <div class="player-stage">
+          <video controls playsinline preload="none">
+            <track kind="captions" srclang="en" label="English">
+          </video>
+          <div class="player-embed" hidden></div>
+        </div>
+        <button type="button" class="player-fs">Fullscreen</button>
+      </div>
+    </section>
+  </template>
+  <template id="tmpl-model-block">
+    <section class="media-block" data-media="model">
+      <figure class="model-viewer-wrap">
+        <model-viewer camera-controls touch-action="pan-y" shadow-intensity="0.6" exposure="1.1"></model-viewer>
+        <figcaption hidden></figcaption>
+        <div class="model-toolbar">
+          <button type="button" data-model-rotate aria-pressed="true">Auto-rotate</button>
+          <button type="button" data-model-fs>Fullscreen</button>
+        </div>
+      </figure>
+    </section>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
